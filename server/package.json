@@ -1,0 +1,20 @@
+{
+    "name": "moosemooseboom-server",
+    "version": "0.0.1",
+    "description": "Server for the moosemooseboom WebRTC app",
+    "main": "index.js",
+    "scripts": {
+        "start": "node server.js",
+        "build": "echo 'Specify build command if needed'",
+        "lint": "eslint . --ext js,jsx --max-warnings 0"
+    },
+    "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^4.17.1",
+        "mongoose": "^6.1.2",
+        "socket.io": "^4.7.2"
+    },
+    "devDependencies": {
+        "eslint": "^8.45.0"
+    }
+}
